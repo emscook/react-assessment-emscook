@@ -39,7 +39,7 @@ class Page extends Component {
           {
             title: 'About Me',
             img: require('./Pics/evan.jpg'),
-            subtitle: 'Growing up in a military family provided me a unique environment that nurtured my technical skills and instilled in me a strong sense of unity with my fellow man. This compassion has driven me to put giving back above all else. I believe I am well equipped to do so by applying my skills to the software industry, so we can usher in a new age of accessibility to the power of the computer.'
+            subtitle: 'Growing up in a military family provided me a unique environment that nurtured my technical skills and instilled in me a strong sense of unity with my fellow man. This compassion has driven me to put giving back above all else. I believe I am well equipped to do so by applying my skills to the software industry, so we can usher in a new age of accessibility with regards to our computing machines. I have lived in Colorado, New York and Hawaii. '
           }
         ]
       }
@@ -67,6 +67,10 @@ class Page extends Component {
                 body: [
                   'The student will then create an application that hosts a ServerSocket that listens for incoming connections. When a connection is received, it will spawn a client handler thread to interact with the client and then return to listening for new connections. The client handler thread will read an XML document from the connection. The XML document will contain a username, a date, a filename, and the contents of the file. The application will first create a directory for the username if it does not already exist. The application will then create a subdirectory for the date if it does not already exist. Finally, the application will recreate the file in that directory by decoding the Base64 encoded contents and writing the decoded contents to the file.'
                 ]
+              },
+              {
+                head: 'Important Topics',
+                body: ['Jaxb', 'Marshalling and Unmarshalling', 'Threads']
               }
             ]
           },
@@ -96,6 +100,10 @@ class Page extends Component {
                   'To to assess students ability to adapt to new technologies and read documentation of libraries curated for the requirements of this assessment',
                   'To assess students abilities to combine external libraries with their own custom libraries in order to build an application.'
                 ]
+              },
+              {
+                head: 'Important Topics',
+                body: ['Promises', 'Async', 'Node']
               }
             ]
           },
@@ -158,6 +166,10 @@ class Page extends Component {
                   'DELETE /user/{id}: Deletes the User at the given id',
                   'DELETE /address/{id}: Deletes the Address at the given id'
                 ]
+              },
+              {
+                head: 'Important Topics',
+                body: ['REST', 'Spring', 'IoC']
               }
             ]
           },
@@ -187,6 +199,41 @@ class Page extends Component {
                   'Include your Story, Biography, Resume, and past coding projects (including assignments and assessment descriptions) in your design.',
                   'Take your design and break it into React Components.',
                   'Implement your components using React and Redux.'
+                ]
+              },
+              {
+                head: 'Important Topics',
+                body: ['React', 'Redux', 'JSX', 'Components']
+              }
+            ]
+          },
+          {
+            head: 'AU Photo Upload',
+            gitLink: 'https://github.com/zealousduck/AUPhotoUpload',
+            gitText: 'Click here for the repository.',
+            img: 'fab fa-dropbox',
+            body: [
+              {
+                head: '',
+                body: [
+                  'Senior Design Project for Auburn University -- Upload pictures to a shared resource wirelessly soon after taking them.'
+                ]
+              },
+              {
+                head: 'My Responsibilities',
+                body: [
+                  'All interactions with dropbox',
+                  'Queue based multiprocess communication'
+                ]
+              },
+              {
+                head: 'Important Topics',
+                body: [
+                  'Tkinter',
+                  'Dropbox API',
+                  'Multiprocessing',
+                  'Exponential Backoff',
+                  'Worker Threads: batch upload'
                 ]
               }
             ]
